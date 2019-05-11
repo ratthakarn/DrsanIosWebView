@@ -15,6 +15,8 @@ let HIDE_SHARE = true
 class WebViewSwiftController: UIViewController, WKNavigationDelegate, WKUIDelegate {
     
     
+    
+    
     @IBOutlet var webView: WKWebView!
     @IBOutlet weak var shareButton: UIBarButtonItem?
     @IBOutlet weak var backButton: UIBarButtonItem?
