@@ -1,0 +1,162 @@
+PODS:
+  - Alamofire (4.8.2)
+  - BMPlayer (1.2.1):
+    - BMPlayer/Full (= 1.2.1)
+  - BMPlayer/Core (1.2.1)
+  - BMPlayer/Full (1.2.1):
+    - BMPlayer/Core
+    - NVActivityIndicatorView (~> 4.6.1)
+    - SnapKit (~> 4.2.0)
+  - CollieGallery (0.6.0)
+  - Cosmos (15.0.0)
+  - FeedKit (8.1.1)
+  - FHSTwitterEngine (2.0.6)
+  - FRadioPlayer (0.1.15)
+  - Google-Mobile-Ads-SDK (7.42.2):
+    - GoogleAppMeasurement (~> 5.7)
+  - GoogleAppMeasurement (5.8.1):
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - GoogleMaps (3.0.3):
+    - GoogleMaps/Maps (= 3.0.3)
+  - GoogleMaps/Base (3.0.3)
+  - GoogleMaps/Maps (3.0.3):
+    - GoogleMaps/Base
+  - GoogleUtilities/AppDelegateSwizzler (5.7.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (5.7.0)
+  - GoogleUtilities/Logger (5.7.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (5.7.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (5.7.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (5.7.0)"
+  - GoogleUtilities/Reachability (5.7.0):
+    - GoogleUtilities/Logger
+  - ILTranslucentView (0.1)
+  - KILabel (1.0.0)
+  - KVOController (1.2.0)
+  - LPSnackbar (3.1.0)
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
+  - NVActivityIndicatorView (4.6.1):
+    - NVActivityIndicatorView/Presenter (= 4.6.1)
+  - NVActivityIndicatorView/Presenter (4.6.1)
+  - ObjectMapper (3.4.2)
+  - OhhAuth (1.0.0)
+  - OneSignal (2.9.5)
+  - SDWebImage (4.4.6):
+    - SDWebImage/Core (= 4.4.6)
+  - SDWebImage/Core (4.4.6)
+  - SnapKit (4.2.0)
+  - Swifter (2.3.0)
+  - SwiftyJSON (4.3.0)
+  - "UITableView+FDTemplateLayoutCell (1.6)"
+  - XCDYouTubeKit (2.7.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - BMPlayer (~> 1.2.1)
+  - CollieGallery (from `https://github.com/gmunhoz/CollieGallery.git`)
+  - Cosmos (~> 15.0)
+  - FeedKit (~> 8.0)
+  - FHSTwitterEngine
+  - FRadioPlayer
+  - Google-Mobile-Ads-SDK
+  - GoogleMaps
+  - ILTranslucentView
+  - KILabel (= 1.0.0)
+  - KVOController
+  - LPSnackbar
+  - ObjectMapper (~> 3.3)
+  - OhhAuth
+  - OneSignal (< 3.0, >= 2.6.2)
+  - SDWebImage (~> 4.0)
+  - Swifter (from `https://github.com/mattdonnelly/Swifter.git`)
+  - SwiftyJSON (~> 4.0)
+  - "UITableView+FDTemplateLayoutCell"
+  - XCDYouTubeKit (~> 2.5)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - BMPlayer
+    - Cosmos
+    - FeedKit
+    - FHSTwitterEngine
+    - FRadioPlayer
+    - Google-Mobile-Ads-SDK
+    - GoogleAppMeasurement
+    - GoogleMaps
+    - GoogleUtilities
+    - ILTranslucentView
+    - KILabel
+    - KVOController
+    - LPSnackbar
+    - nanopb
+    - NVActivityIndicatorView
+    - ObjectMapper
+    - OhhAuth
+    - OneSignal
+    - SDWebImage
+    - SnapKit
+    - SwiftyJSON
+    - "UITableView+FDTemplateLayoutCell"
+    - XCDYouTubeKit
+
+EXTERNAL SOURCES:
+  CollieGallery:
+    :git: https://github.com/gmunhoz/CollieGallery.git
+  Swifter:
+    :git: https://github.com/mattdonnelly/Swifter.git
+
+CHECKOUT OPTIONS:
+  CollieGallery:
+    :commit: 459ef3412ea4261f853a09f396da28fc37c2a541
+    :git: https://github.com/gmunhoz/CollieGallery.git
+  Swifter:
+    :commit: 39541c9fb3312771fd851bde2d6a89886fbe3851
+    :git: https://github.com/mattdonnelly/Swifter.git
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  BMPlayer: ea12f9d82e37f968dea2078b5e58e356ee4439d8
+  CollieGallery: 23cd403c3c7bb0f108bc429a6b874e7315bede0b
+  Cosmos: a6dbd3d0baa0cc8f51f8598f7508d5a09d0a9ade
+  FeedKit: 3418eed25f0b493b205b4de1b8511ac21d413fa9
+  FHSTwitterEngine: ace2a7f57e4e0c0e4045e786d2f5a8c6bc1b8cf0
+  FRadioPlayer: 0ad8b63756c3597af3c4a2672334c5dc22e026e4
+  Google-Mobile-Ads-SDK: 8f4f7e793bfd3fff5b082181b54112f81b579a67
+  GoogleAppMeasurement: ffe513e90551844a739e7bcbb1d2aca1c28a4338
+  GoogleMaps: fd5c9fa58871781b9fb94d4936f19c69fe60ce32
+  GoogleUtilities: 273e67030e0de313e7304f6dcfa96fc5214f6c23
+  ILTranslucentView: 3a0925b143854f02fa9cccf1970ecb8155e64778
+  KILabel: 84049969642d4ac1061ebe38ad4c0da37fed108b
+  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
+  LPSnackbar: 27311158a371484d51fa5eace8bbe7a08eaddcfa
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  NVActivityIndicatorView: 4ca19fccc84595a78957336a086d00a49be6ce61
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  OhhAuth: 82863d7a9aa2a749eb2c65551281c01f3facf501
+  OneSignal: ccdeb961882f8668305e5b694e2cb7cb325fc907
+  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  Swifter: dbdc8b8d35efb46d5a636502545b6dd95eea6285
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
+  XCDYouTubeKit: 3f4fd3eb3ed494a46a8f007b91315eed6dd6df1f
+
+PODFILE CHECKSUM: fc2913f9b07908df0a47a4742c542f731f47570e
+
+COCOAPODS: 1.5.3
